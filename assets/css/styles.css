@@ -1,7 +1,138 @@
 body {
     font-family: 'Arial', sans-serif;
+    margin: 0; 
+    padding: 0;
+}
+
+.wrapper {
+    min-width: 100vw;
+    min-height: 100vh;
+    background-color: darkolivegreen;
+    margin: 0;
+    padding: 0;
+    padding-top: 20px;
+}
+
+header {
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+h1 a {
+    color: black;
+}
+
+nav ul {
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+nav a, #navButton {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    padding: 8px 12px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+nav a:hover, #navButton:hover {
+    background-color: #333;
+}
+
+#navButton {
+    font-size: 16px;
+    font-weight: bold;
+    background-color: black;
+    border: none;
+    cursor: pointer;
+}
+
+#navButton:hover {
+    background-color: #333;
+}
+
+h1 {
+    margin: 0;
+    padding: 0;
+}
+
+h2 {
+
+}
+
+h3 {
+
+}
+
+button {
+
 }
 
 p {
-    font: 16px;
+
+}
+
+address {
+
+}
+
+a {
+    color: #333;
+}
+
+a:hover {
+    color: white;
+}
+
+/*
+Sections
+*/
+section {
+    margin-left: 20px;
+}
+
+#home {
+
+}
+
+#about {
+
+}
+
+#services {
+
+}
+
+#contact {
+
+}
+
+#footer {
+
+}
+
+/*
+Responsive Design
+*/
+@media (max-width: 600px) {
+
+    body {
+
+    }
+
+    .wrapper {
+
+    }
+
 }

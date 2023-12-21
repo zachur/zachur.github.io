@@ -1,7 +1,7 @@
 document.addEventListener('DOMContentLoaded', function() {
-    var myButton = document.getElementById('myButton');
+    let navButton = document.getElementById('navButton');
 
-    myButton.addEventListener('click', function() {
+    navButton.addEventListener('click', function() {
         alert('Button clicked!');
     });
 });

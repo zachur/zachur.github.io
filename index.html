@@ -4,11 +4,63 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>zachur/home</title>
+    <!-- CSS link(s) -->
     <link rel="stylesheet" href="./assets/css/styles.css">
-    <script src="./assets/js/script.js"></script>
 </head>
 <body>
-    <p>It's a website.</p>
-    <button id="myButton">Click me!</button>
+
+    <div class="wrapper">
+
+        <header>
+            <h1><a href="https://www.zachur.dev">zachur.dev</a></h1>
+            <nav>
+                <ul>
+                    <li><a href="https://www.zachur.dev/about">About</a></li>
+                    <li><a href="https://www.zachur.dev/services">Services</a></li>
+                    <li><a href="https://www.zachur.dev/contact">Contact</a></li>
+                    <li><button id="navButton">Click me!</button></li>
+                </ul>
+            </nav>
+        </header>
+
+        <section id="home">
+            <h2>Welcome to my website.</h2>
+            <p>A message to visitors goes here.</p>
+        </section>
+
+        <section id="about">
+            <h2>About</h2>
+            <p>Information about this site goes here.</p>
+        </section>
+
+        <section id="services">
+            <h2>Services</h2>
+            <ul>
+                <li>Service 1</li>
+                <li>Service 2</li>
+                <li>Service 3</li>
+            </ul>
+        </section>
+
+        <section id="contact">
+            <h2>Contact</h2>
+            <address>
+                Email: <a href="me@zachur.dev">me@zachur.dev</a><br>
+                GitHub: <a href="https://github.com/zachur">@zachur</a>
+            </address>
+        </section>
+
+        <section id="footer">
+            <footer>
+                <p>Find an issue with this page? Fix it on <a href="https://github.com/zachur/zachur.github.io">GitHub</a>.</p>
+                <p>&copy; 2023 zachur.dev. All rights reserved.</p>
+            </footer>
+        </section>
+
+    </div>
+
+    <!-- JS link(s) -->
+    <script src="./assets/js/script.js"></script>
+
 </body>
 </html>
