@@ -1,27 +1,24 @@
 body {
-    font-family: 'Arial', sans-serif;
-    margin: 0; 
+    margin-top: 1vh;
+    margin-bottom: 1vh;
+    margin-left: 1vw;
+    margin-right: 1vw;
     padding: 0;
-}
-
-.wrapper {
     min-width: 100vw;
     min-height: 100vh;
-    background-color: darkolivegreen;
-    margin: 0;
-    padding: 0;
-    padding-top: 20px;
+    background-color: darkslategray;
+    color: whitesmoke;
 }
 
-header {
-    text-align: center;
-    margin: 0;
-    padding: 0;
+a {
+    color: whitesmoke;
 }
 
-h1 a {
-    color: black;
-}
+
+/*
+
+
+
 
 nav ul {
 }
@@ -94,12 +91,23 @@ a {
 a:hover {
     color: white;
 }
+*/
 
 /*
 Sections
 */
+/*
 section {
     margin-left: 20px;
+}
+
+#menu {
+    text-align: center;
+}
+
+#menu a {
+    text-decoration: none;
+    display: inline-block;
 }
 
 #home {
@@ -121,10 +129,12 @@ section {
 #footer {
 
 }
+*/
 
 /*
 Responsive Design
 */
+/*
 @media (max-width: 600px) {
 
     body {
@@ -135,4 +145,10 @@ Responsive Design
 
     }
 
+}
+*/
+
+.footer {
+    text-align: center;
+    position: relative;
 }
