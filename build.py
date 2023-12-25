@@ -43,3 +43,10 @@ make_webpage("./assets/components/doctype.html", \
              "./assets/components/blog.html", \
              "./assets/components/footer.html", \
              "./blog/index.html")
+
+make_webpage("./assets/components/doctype.html", \
+             "./assets/components/head.html", \
+             "./assets/components/header.html", \
+             "./assets/components/articles/20240101.html", \
+             "./assets/components/footer.html", \
+             "./blog/20240101/index.html")
